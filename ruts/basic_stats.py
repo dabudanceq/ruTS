@@ -9,9 +9,7 @@ from .extractors import SentsExtractor, WordsExtractor
 from .utils import count_syllables
 
 
-class BasicStats:
-    """
-    Класс для вычисления основных статистик текста
+class BasicStats: #Класс для вычисления основных статистик текста
 
     Пример использования:
         >>> from ruts import BasicStats
